@@ -60,6 +60,10 @@ Limited the privilages to the user:
 
 ## Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
 
+![](./assets/event-bridge-1.png)
+
+![](./assets/event-bridge-2.png)
+
 ## Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 
 ![](./assets/aws-architeture.png)
