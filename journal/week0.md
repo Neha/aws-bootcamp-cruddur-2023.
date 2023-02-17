@@ -24,9 +24,9 @@ When we create an account in AWS we are the root user. As a root user we can cre
 
 **How?**
 
-## In IAM service, we can click on "Add user" (optional can give access to AWS management console)
+- In IAM service, we can click on "Add user" (optional can give access to AWS management console)
 
-## Next, set permissions (add to existing groups, or attach policies)
+- Next, set permissions (add to existing groups, or attach policies)
 
 ## Review and create
 
@@ -68,13 +68,13 @@ Limited the privilages to the user:
 
 ![](./assets/aws-architeture.png)
 
-- Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
+## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
 
 ![](./assets/ci-cd.png)
 
 ## Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility.
 
-The service is Dynamodb. 
+The service is Dynamodb:
 
 [Here](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#default-limits-throughput-capacity-modes) is limit of DynamoDB for provisioned DB, and read/write per account: 
 
@@ -91,7 +91,6 @@ Reason is, this will guide us on:
 2. If we have to request for more capacity
 
 3. If we need to optimize the usage
-
 
 ## Open a support ticket and request a service limit
 
